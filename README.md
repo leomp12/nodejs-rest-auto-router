@@ -1,5 +1,6 @@
 # nodejs-rest-auto-router
-Simple auto router for Node.js raw http designed for JSON RESTful API
+Simple auto router for Node.js raw http designed for JSON RESTful API, based on
+<a href="https://github.com/WhiteHouse/api-standards" target="_blank">White House Web API Standards</a>
 
 <a href="https://www.npmjs.com/package/rest-auto-router" target="_blank">npm package</a>
 ```
