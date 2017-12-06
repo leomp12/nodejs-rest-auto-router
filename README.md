@@ -1,6 +1,11 @@
 # nodejs-rest-auto-router
 Simple auto router for Node.js raw http designed for JSON RESTful API
 
+<a href="https://www.npmjs.com/package/rest-auto-router" target="_blank">npm package</a>
+```
+npm install --save rest-auto-router
+```
+
 **Expect to receive requests from reverse proxy only**,
 not recommended to use without proxy server such as Nginx, Apache Httpd, HAProxy, etc.
 
