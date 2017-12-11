@@ -1,10 +1,14 @@
 {
   "name": "rest-auto-router",
-  "version": "3.5.8",
+  "version": "3.5.10",
   "description": "Simple auto router for Node.js raw http designed for JSON RESTful API",
   "main": "main.js",
   "scripts": {
     "test": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leomp12/nodejs-rest-auto-router.git"
   },
   "keywords": [
     "rest",
@@ -29,5 +33,9 @@
     "etag": "^1.8.1"
   },
   "author": "Leonardo Matos de Paula",
-  "license": "ISC"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leomp12/nodejs-rest-auto-router/issues"
+  },
+  "homepage": "https://github.com/leomp12/nodejs-rest-auto-router#readme"
 }
