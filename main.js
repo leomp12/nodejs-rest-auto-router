@@ -94,7 +94,7 @@ function routing (req, res, body = {}) {
   // remove the base uri and .json extension and use lowercase letters
   let regex = new RegExp('^(' + conf.base_uri + ')', 'i')
   let uri = urlObj.pathname
-  if (regex.test(uri)) {
+  if (!regex.test(uri)) {
     let devMsg = 'Could not match the base URI, maybe you have not specified the API version'
     httpErrorHandling(res, 400, 19, devMsg, null, null)
     return
