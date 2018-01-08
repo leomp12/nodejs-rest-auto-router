@@ -1,6 +1,6 @@
 {
   "name": "rest-auto-router",
-  "version": "3.5.10",
+  "version": "3.5.11",
   "description": "Simple auto router for Node.js raw http designed for JSON RESTful API",
   "main": "main.js",
   "scripts": {
