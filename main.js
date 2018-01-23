@@ -463,7 +463,7 @@ function httpServer (req, res) {
   // https://nodejs.org/dist/latest-v8.x/docs/api/http.html
   // JSON RESTful
   // respond always with JSON
-  res.setHeader('Content-Type', 'application/json, charset=utf-8')
+  res.setHeader('Content-Type', 'application/json')
 
   // mount body before routing
   let body = []
