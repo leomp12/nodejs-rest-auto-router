@@ -242,9 +242,8 @@ function routing (req, res, body = {}) {
         res.end(JSON.stringify(response))
       } else if (typeof obj === 'object' && obj !== null && Object.keys(obj).length > 0) {
         // custom error object
-        body = JSON.stringify(obj)
         res.writeHead(status)
-        res.end(body)
+        res.end(JSON.stringify(obj))
       } else {
         // client and/or server error
         httpErrorHandling(res, status, errorCode, devMsg, usrMsg, moreInfo)
